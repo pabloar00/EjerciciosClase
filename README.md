@@ -1,2 +1,0 @@
-# EjerciciosClase
-Ejercicios de clase
