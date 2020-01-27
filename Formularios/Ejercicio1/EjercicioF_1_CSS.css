@@ -1,0 +1,28 @@
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: bisque;
+    
+
+    
+}
+
+input[type=submit], input[type=reset]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.etiqueta{
+    color: brown;
+    font-size: 2em;
+}

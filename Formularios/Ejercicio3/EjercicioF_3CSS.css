@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+    background-color: #e4ffff;
+}
+
+h1{
+    text-align: right;
+    letter-spacing: 10px;
+}
+
+span.subrayado {
+    border-bottom: blue 6px dashed;
+}
+
+span.pregunta{
+    text-decoration:underline;
+}
+
+form{
+    margin: 10px 30px;
+}
+
+fieldset{
+    border: blue 3px dashed;
+    padding: 20px;
+}
+
+legend{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+    letter-spacing: 5px;
+    font-size: 120%;
+}
+
+td{
+    padding: 5px 10px;
+}
+
+td.der{
+    text-align: right;
+}

@@ -1,0 +1,21 @@
+.mostrar {
+    border-collapse: separate;
+    border-spacing: 10px;
+    empty-cells: show;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.ocultar {
+    border-collapse: separate;
+    border-spacing: 10px;
+    empty-cells: hide;
+    background-color: beige;
+    border: 1px solid black;
+}
+
+.black {
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
