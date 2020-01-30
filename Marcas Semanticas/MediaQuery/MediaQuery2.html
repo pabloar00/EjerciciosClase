@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.wrapper {
+overflow: auto;
+}
+main {
+margin-left: 4px;
+}
+aside {
+float: none;
+width: auto;
+}
+#menulist {
+margin: 0;
+padding: 0;
+}
+.menuitem {
+background: #CDF0F6;
+border: 1px solid #d4d4d4;
+border-radius: 4px;
+list-style-type: none;
+margin: 4px;
+padding: 2px;
+}
+@media screen and (min-width: 480px) {
+aside {
+width: 200px;
+float: left;
+}
+main {
+Lo vemos en la Vista de diseño adaptable:
+margin-left: 216px;
+}
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+<aside>
+<ul id="menulist">
+<li class="menuitem">Menu-item 1</li>
+<li class="menuitem">Menu-item 2</li>
+<li class="menuitem">Menu-item 3</li>
+<li class="menuitem">Menu-item 4</li>
+<li class="menuitem">Menu-item 5</li>
+</ul>
+</aside>
+<main>
+<h1>¡Cambia el tamaño de la ventana del navegador para ver el efecto!</h1>
+<p>Este ejemplo muestra un menú que flotará a la izquierda de la página si la
+ventana gráfica tiene 480 píxeles de ancho o más. Si la ventana gráfica tiene menos de
+480 píxeles, el menú estará encima del contenido.</p>
+</main>
+</div>
+</body>

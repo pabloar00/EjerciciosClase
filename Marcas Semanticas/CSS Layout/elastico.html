@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejemplo de diseño elastico</title>
+
+        <style>
+            body {
+                background-color: #e0cc97;
+                color: #000;
+                margin: 0;
+                padding: 0;
+            }
+
+            ul{
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+            }
+
+            h1,
+            h2,
+            p {
+                margin: 0;
+                padding: 10px;
+            }
+
+            #wrapper {
+                background-color: #e1b378;
+                width: 56em;
+                margin: 0 auto;
+                padding: 5px;
+            }
+
+            #cabecera {
+                background-color: #4d8963;
+                color: #fff;
+                text-align: center
+            }
+
+            #navegacion {
+                background-color: #ecb8c7;
+                float: left;
+                width: 6em;
+            }
+
+            #contenido {
+                background-color: #ec799a;
+                margin-left: 6em;
+            }
+
+            #pie {
+                background-color: #69a583;
+                color: #fff;
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>
+                <div id="cabecera">
+                <h1>Ejemplo de diseño elastico</h1>
+                </div>
+        </header>
+            <div id="navegacion">
+            <nav>
+                    <ul>
+                    <li><a href="#">Enlace a 1</a></li>
+                    <li><a href="#">Enlace a 2</a></li>
+                    <li><a href="#">Enlace a 3</a></li>
+                    </ul>
+            </nav>
+            </div>
+        <main>
+                <div id="contenido">
+                <h2>Contenido de la página</h2>
+                <p>Los distintos estilos de una pagina web son fijo, liquido o fluido, elastico e hibrido o mixto. El diseño fijo establece una anchura fija, normalmente indicada en pixel</p>
+                <p>El <strong>diseño liquido o fluido</strong> establece una anchura relativa de los componentes de la página, mediante porcentajes respecto a la anchura de la ventana del navegador</p>
+                <p>El <strong>diseño elastico</strong> establece una anchura relativa de los componentes de la página, mediante unidades relativas respecto al tamaño del texto (em o ex)</p>
+                </div>
+        </main>
+        <footer>
+                <div id="pie">
+                <h2>Pie de la página</h2>
+                </div>
+        </footer>
+        </div>
+    </body>
+</html>
