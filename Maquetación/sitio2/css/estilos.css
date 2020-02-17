@@ -1,0 +1,54 @@
+@import url(cabecera.css);
+@import url(servicios.css);
+@import url(info.css);
+@import url(footer.css);
+
+body{
+	background: rgba(0, 0, 0, .9);
+	margin:0;
+	color:#fff;
+	font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+}
+
+/*Responsive*/
+@media (max-width: 560px){
+	.cabecera::after{
+		height: 50vh;
+	}
+
+	.content{
+		top:5%;
+		margin-top: 7px;
+		margin-left: -125px;
+	}
+
+	.content .logo{
+		height: 125px;
+		width: 125px;
+	}
+
+	.content .desc{
+		display: none;
+	}
+
+	.cont-2, .colum2{
+		grid-template-columns: 1fr;
+	}
+
+	.servicios div{
+		border-bottom: 1px dashed #333;
+		padding: 1.2rem 1rem;
+	}
+}
+
+@media (max-height: 500px){
+	.content .titulo,
+	.content .desc {
+		display: none;
+	}
+
+	.content{
+		top: 0;
+		
+	}
+}

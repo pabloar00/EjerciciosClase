@@ -1,0 +1,23 @@
+.info{
+    background: #fff;
+    color: #333;
+}
+
+.contenedor02{
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem 1rem;
+}
+
+.colum2{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+
+}
